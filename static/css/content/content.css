@@ -1,0 +1,9 @@
+@import url("about_me/about_me.css");
+@import url("optin/optin.css");
+@import url("proficiencies/proficiencies.css");
+@import url("professional_experiences/professional_experiences.css");
+
+
+.content {
+    width: 100%;
+}

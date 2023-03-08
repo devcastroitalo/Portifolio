@@ -1,0 +1,36 @@
+.optin {
+    width: 100%;
+    padding: 2em;
+}
+
+.optin .optin_container {
+    max-width: 1300px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+}
+
+.optin .optin_container header {
+    flex-basis: 50%;
+}
+
+.optin .optin_container h1 {
+    font-size: 1.3em;
+    text-align: right;
+}
+
+.optin .optin_container a {
+    text-decoration: none; 
+    text-align: center;
+    background-color: var(--orange);
+    padding: .8em;
+    color: var(--white);
+    font-weight: 500;
+    border-radius: 5px;
+    margin-left: 1.1em;
+}
+
+.optin .optin_container a:hover {
+    cursor: pointer;
+}
+

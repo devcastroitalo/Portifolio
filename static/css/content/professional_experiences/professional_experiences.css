@@ -1,0 +1,34 @@
+.professional_experiences {
+    width: 100%;
+    background-color: var(--white);
+    color: var(--black);
+}
+
+.professional_experiences .professional_experiences_container {
+    max-width: 1300px;
+    margin: 0 auto;
+    padding: 2em 0;
+}
+
+.professional_experiences .professional_experiences_container h1 {
+    font-size: 2em;
+    font-weight: 500;
+}
+
+.professional_experiences .professional_experiences_container .experiences {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.professional_experiences .professional_experiences_container .experiences .experience_card {
+    flex-basis: 45%;
+    margin: 1em;
+    background-color: var(--grey);
+    padding: 1em;
+    border-radius: 5px;
+}
+
+.professional_experiences .professional_experiences_container .experiences .experience_card h2 {
+    font-size: 1.1em;
+    font-weight: 500;
+}

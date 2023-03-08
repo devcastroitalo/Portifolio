@@ -1,0 +1,31 @@
+.presentation {
+    width: 100%;
+}
+
+.presentation .presentation_container {
+    max-width: 1300px;
+    margin: 0 auto;
+    padding: 0 3em;
+    display: flex;
+    justify-content: space-between;
+}
+
+.presentation .presentation_container header {
+    flex-basis: 50%;
+    text-align: center;
+}
+
+.presentation .presentation_container header {
+    margin-top: 15%;
+}
+
+.presentation .presentation_container h1 {
+    font-size: 2.5em;
+    font-weight: 500;
+}
+
+.presentation .presentation_container img {
+    width: 40%;
+    border: 20px solid var(--darker);
+}
+

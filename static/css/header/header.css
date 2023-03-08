@@ -1,0 +1,43 @@
+.header {
+    width: 100%;
+}
+
+.header .header_container {
+    max-width: 1300px;
+    margin: 0 auto;
+    padding: 3em;
+    display: flex;
+    justify-content: space-between;
+}
+
+.header .header_container .header_logo {
+    flex-basis: 30%;
+    display: flex;
+    margin-bottom: auto;
+}
+
+.header .header_container .header_logo h1 {
+    font-size: 3em;
+    font-weight: 700;
+}
+
+.header .header_container .header_options {
+    flex-grow: 1;
+}
+
+.header .header_container .header_options ul {
+    display: flex;
+    justify-content: space-around;
+    height: 100%;
+    align-items: center;
+}
+
+.header .header_container .header_options a {
+    text-decoration: none;
+    color: var(--white);
+    font-size: 1.1em;
+}
+
+.header .header_container .header_options a:hover {
+    text-decoration: underline;
+}

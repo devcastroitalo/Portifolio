@@ -1,0 +1,24 @@
+@import url("header/header.css");
+@import url("presentation/presentation.css");
+@import url("content/content.css");
+
+:root {
+    --white: #FFFFFF;
+    --black: #000000;
+    --darker: #191A1D;
+    --dark-blue: #191C22;
+    --light-blue: #367BEF;
+    --orange: #E76300;
+    --grey: #EBEBEB;
+}
+
+body {
+    font-family: 'Ubuntu', sans-serif;
+    background-color: var(--dark-blue);
+    color: var(--white);
+}
+
+* {
+    box-sizing: border-box;
+}
+

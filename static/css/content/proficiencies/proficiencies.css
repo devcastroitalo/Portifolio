@@ -1,0 +1,28 @@
+.proficiencies {
+    width: 100%;
+    background-color: var(--white);
+    color: var(--black);
+}
+
+.proficiencies .proficiencies_container {
+    max-width: 1300px;
+    margin: 0 auto;
+    padding: 2em 0;
+}
+
+.proficiencies .proficiencies_container h1 {
+    font-size: 2em;
+    font-weight: 500;
+}
+
+.proficiencies .proficiencies_container .proficiencie_lists {
+    display: flex;
+}
+
+.proficiencies .proficiencies_container ul {
+    flex-basis: 50%;
+    list-style: square;
+    margin-left: 3em;
+    line-height: 1.4;
+}
+
