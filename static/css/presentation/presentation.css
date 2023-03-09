@@ -43,3 +43,9 @@
     }
 }
 
+@media screen and (max-width: 480px) {
+    .presentation .presentation_container h1 {
+        font-size: 1.8em;
+    }
+}
+
