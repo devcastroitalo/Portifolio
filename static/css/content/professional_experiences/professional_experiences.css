@@ -38,3 +38,9 @@
         padding: 3em;
     }
 }
+
+@media screen and (max-width: 768px) {
+    .professional_experiences .professional_experiences_container .experiences {
+        flex-direction: column;
+    }
+}
