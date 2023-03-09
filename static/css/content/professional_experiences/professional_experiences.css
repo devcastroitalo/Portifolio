@@ -32,3 +32,9 @@
     font-size: 1.1em;
     font-weight: 500;
 }
+
+@media screen and (max-width: 1024px) {
+    .professional_experiences .professional_experiences_container {
+        padding: 3em;
+    }
+}

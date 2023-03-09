@@ -29,3 +29,17 @@
     border: 20px solid var(--darker);
 }
 
+@media screen and (max-width: 1024px) {
+    .presentation .presentation_container {
+        flex-direction: column;
+    }
+    
+    .presentation .presentation_container header {
+        margin-top: 0;
+    }
+    
+    .presentation .presentation_container img {
+        margin: 0 auto;
+    }
+}
+

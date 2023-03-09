@@ -20,3 +20,13 @@
     margin-left: 3em;
     line-height: 1.4;
 }
+
+@media screen and (max-width: 1024px) {
+    .about_me .about_me_container {
+        padding: 3em;
+    }
+    
+    .about_me .about_me_container ul {
+        margin-left: 1em;
+    }
+}

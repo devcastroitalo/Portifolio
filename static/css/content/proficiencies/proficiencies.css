@@ -26,3 +26,9 @@
     line-height: 1.4;
 }
 
+@media screen and (max-width: 1024px) {
+    .proficiencies .proficiencies_container {
+        padding: 3em;
+    }
+}
+

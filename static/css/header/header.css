@@ -11,9 +11,9 @@
 }
 
 .header .header_container .header_logo {
-    flex-basis: 30%;
     display: flex;
     margin-bottom: auto;
+    align-items: baseline;
 }
 
 .header .header_container .header_logo h1 {
@@ -41,3 +41,14 @@
 .header .header_container .header_options a:hover {
     text-decoration: underline;
 }
+
+@media screen and (max-width: 1024px) {    
+    .header .header_logo {
+        margin: 0 auto;
+    }
+    
+    .header .header_options {
+        display: none;
+    }
+}
+
