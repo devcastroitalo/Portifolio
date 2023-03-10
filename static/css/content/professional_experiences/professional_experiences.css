@@ -20,6 +20,10 @@
     flex-wrap: wrap;
 }
 
+.professional_experiences .professional_experiences_container .experiences .experience_card header > p {
+    font-size: 0.9em;
+}
+
 .professional_experiences .professional_experiences_container .experiences .experience_card {
     flex-basis: 45%;
     margin: 1em;

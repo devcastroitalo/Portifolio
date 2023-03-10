@@ -43,7 +43,7 @@
     }
 }
 
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 520px) {
     .presentation .presentation_container h1 {
         font-size: 1.8em;
     }

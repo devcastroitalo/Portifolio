@@ -3,23 +3,23 @@
     padding: 2em;
 }
 
-.optin .optin_container {
+.optin .optin_profile_container {
     max-width: 1300px;
     margin: 0 auto;
     display: flex;
     align-items: center;
 }
 
-.optin .optin_container header {
+.optin .optin_profile_container header {
     flex-basis: 50%;
 }
 
-.optin .optin_container h1 {
+.optin .optin_profile_container h1 {
     font-size: 1.3em;
     text-align: right;
 }
 
-.optin .optin_container a {
+.optin .optin_profile_container a {
     text-decoration: none; 
     text-align: center;
     background-color: var(--orange);
@@ -30,7 +30,8 @@
     margin-left: 1.1em;
 }
 
-.optin .optin_container a:hover {
-    cursor: pointer;
+.optin .optin_best_empoyee_container h1 {
+    font-size: 1.3em;
+    text-align: center;
 }
 
